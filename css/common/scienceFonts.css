@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'sweet_sansbold';
+    src: url('/file/serve/6747037601890304');
+    src: url('/file/serve/6747037601890304?#iefix') format('embedded-opentype'),
+         url('/file/serve/5796027555381248') format('woff'),
+         url('/file/serve/6289263747137536') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sweet_sansregular';
+    src: url('/file/serve/5348463307653120');
+    src: url('/file/serve/5348463307653120?#iefix') format('embedded-opentype'),
+         url('/file/serve/4993911811211264') format('woff'),
+         url('/file/serve/5017943294083072') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html, body {
+	font-family: "sweet_sansregular" !important;
+	font-size: 18px !important;
+	line-height: 1.5em !important;
+}
+
+#leftTitle {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+.header {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.activityType {
+	font-family: Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1em;
+}
+.rubric {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+.rubricPanel {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+.rubricFullScreen {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.readingPassage {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+.fullScreenRubric {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Verdana, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.levelDiv{
+	font-family: "sweet_sansbold" !important;
+	line-height: 45px;
+}
+
+.titleDiv{
+	font-family: "sweet_sansbold" !important;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.levelDivActivities{
+	font-family: "sweet_sansbold" !important;
+}
+
+
+.explorePassage,.explorePassageCC{
+	font-size: 20px !important;
+	font-family: "sweet_sansregular" !important;
+}
+.readingTitle{
+	font-family: "sweet_sansbold" !important;
+}
+.ccQuestion{
+	font-size:18px;
+}
+.multipleChoiceNumberingNoText{
+	font-size: 22px !important;
+}
+.multipleChoiceNumbering{
+	font-size: 20px !important;
+}

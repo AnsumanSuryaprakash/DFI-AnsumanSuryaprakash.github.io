@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="stylesheet" href="css/common/fonts.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="css/common/lib/jquery/jquery-ui-1.10.2.css" type="text/css"/>
+<link rel="stylesheet" href="css/common/lib/idangerous/idangerous.swiper.css" type="text/css"/>
+<link rel="stylesheet" href="css/components/e4.css" type="text/css"/>
+<link rel="stylesheet" href="css/components/video-js.css" type="text/css"/>
+<link rel="stylesheet" href="css/common/lib/idangerous/idangerous.swiper.scrollbar.css" type="text/css"/>
+<link rel="stylesheet" href="css/common/scienceFonts.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="css/common/main.css" type="text/css"/>
+<link rel="stylesheet" href="css/components/swiper.css" type="text/css"/>
+<link rel="stylesheet" href="css/components/audioPlayer.css" type="text/css"/>
+
+<script src="js/common/lib/jquery/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="js/common/lib/jquery/jquery-ui-1.10.2.js" type="text/javascript"></script>
+<script src="js/common/lib/jquery/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="js/common/lib/idangerous/idangerous.swiper.js" type="text/javascript"></script>
+<script src="js/common/lib/hammer/hammer.js" type="text/javascript" ></script>
+<script src="js/common/jHammer.js" type="text/javascript"></script>
+<script src="js/common/lib/photoswipe/klass.min.js" type="text/javascript"></script>
+<script src="js/common/scormfunctions.js" type="text/javascript"></script>
+<script src="js/components/e4.js" type="text/javascript"></script>
+<script src="js/components/video.min.js" type="text/javascript"></script>
+<script src="js/common/globalVariables.js" type="text/javascript"></script>
+<script src="js/common/appFunctions.js" type="text/javascript"></script>
+<script src="js/common/pagesLoader.js" type="text/javascript"></script>
+<script src="js/common/globalMethods.js" type="text/javascript"></script>
+<script src="js/common/enums.js" type="text/javascript"></script>
+<script src="js/components/audioPlugin.js" type="text/javascript"></script>
+<script src="js/common/audio.js" type="text/javascript"></script>
+<script src="js/common/lib/resize/jquery-resizeEnd.min.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+  document.ontouchmove = function(e){
+    e.preventDefault();
+  }
+</script>
+<title>Rise Up 2</title>
+</head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if (gt IE 9)]><body class="modern"> <![endif]-->
+<!--[!(IE)]><!-->  <body class="notIE modern"> <!--<![endif]-->
+<!-- Fullscreen Container -->
+<div class="fullScreenContainer colspan_12_ActivityType" id = "fullScreenContainer">
+  <div class="displayWebkitBox colspan_12_ActivityType rowspan_6">
+    <div class="insetShadow borderRadius backgroundWhite rowspan_6 fullScreenData" id="fullScreenData"> </div>
+    <div class="fullScreenClose" id="fullScreenClose"><img src="images/close-fullScreen.png" alt=""/></div>
+  </div>
+</div>
+<!--------------------------> 
+
+<!---- Audio Container ----->
+<div id="audioPlayerContainer">
+  <div id='audioPlayerBoxWrapper' class="audioPlayerBoxWrapper">
+    <div class="audioClose hideAudio" id="close-audio"><img class="hideAudio" src="images/close-fullScreen.png"></div>
+    <audio id="defaultaudioPlayer" preload="auto" controls>
+      <source id="defaultaudioPlayerSource" type="audio/mpeg" src="" />
+    </audio>
+  </div>
+</div>
+<!-------------------------->
+<div id="portraitBlock">
+  <div style="text-align:center;"> PORTRAIT mode not supported</br>
+    <strong> Please switch back to LANDSCAPE mode!</strong> </div>
+</div>
+<header>
+  <div class="subjectLogo"><img src="images/riseupSubjectLogo.png" alt=""/></div>
+  <ul>
+    <li>Level 2</li>
+    <li>Science</li>
+    <li id="goBack"><a href="../scienceSubject.html">Back</a></li>
+  </ul> 
+</header>
+<section>
+  <div class="numberOne">6</div>
+  <div class="moduleTitle">Testing an Electromagnet</div>
+  <div class="glossaryBtn">Glossary</div>
+  <div class="aimsBtn activityElement" data-pageNumber="0">Aims</div>
+</section>
+<section>
+
+  <article>
+    <div class="sectionTitle">Observation</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="1" src="images/videoIcon.png" alt="Video"/></li>
+      <li><img class="activityElement" data-pageNumber="2" src="images/slideshowIcon.png" alt="Slideshow – Imagining Scale in the Solar System"/></li>
+    </ul>
+  </article>
+
+  <article>
+    <div class="sectionTitle">Research</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="3" src="images/videoIcon.png" alt="Video"/></li>
+      <li><img class="activityElement" data-pageNumber="4" src="images/writingIcon.png" alt="Writing + Answer"/></li>
+      <li><img class="activityElement" data-pageNumber="5" src="images/writingIcon.png" alt="Writing + Answer" /></li>
+    </ul>
+  </article>
+
+  <article>
+    <div class="sectionTitle">Hypothesis</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="6" src="images/videoIcon.png" alt="Video"/></li>
+      <li><img class="activityElement" data-pageNumber="7" src="images/writingIcon.png" alt="Writing + Answer" /></li>
+    </ul>
+  </article>
+
+  <article>
+    <div class="sectionTitle">Test</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="8" src="images/videoIcon.png" alt="Video"/></li>
+      <li><img class="activityElement" data-pageNumber="9" src="images/slideshowIcon.png" alt="Slideshow – Imagining Scale in the Solar System" /></li>
+    </ul>
+  </article>
+
+  <article>
+    <div class="sectionTitle">Analysis</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="10" src="images/videoIcon.png" alt="Video" /></li>
+      <li><img class="activityElement" data-pageNumber="11" src="images/writingIcon.png" alt="Writing + Answer" /></li>
+      <li><img class="activityElement" data-pageNumber="12" src="images/videoIcon.png" alt="Writing + Answer" /></li>
+    </ul>
+  </article>      
+
+   <article>
+    <div class="sectionTitle">Application</div>
+    <ul>
+      <li><img class="activityElement" data-pageNumber="13" src="images/writingIcon.png" alt="Writing + Answer" /></li>
+    </ul>
+  </article>
+  
+</section>
+<div id="pagesContainer">
+  <div id="pagesContainerData"> </div>
+</div>
+<div id="tempContainer" style="display:none;"> </div>
+<div class="loadingScreenHidden">
+  <h1>Loading...</h1>
+  <h3>Please Wait...</h3>
+</div>
+</body>
+</html>

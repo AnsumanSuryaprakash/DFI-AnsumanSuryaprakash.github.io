@@ -1,0 +1,20 @@
+#page12 .fullSection{
+	overflow-y:scroll;
+	position: relative;
+}
+#page12 .imgClass{
+	width:30%;
+}
+#page12 .imgDiv{
+	width:100%;
+	text-align: center;
+}
+#page12 .passage{
+	margin: 0px;
+	width: auto;
+	height: 102%;
+}
+#page12 .passage .passageContainer{
+	width: 100%;
+	box-shadow: none;
+}

@@ -1,0 +1,37 @@
+#page13 .imgDiv{
+	width:100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+/* #page13 .imgObj{
+	width:35%;
+}*/
+
+#page13 .imgObj1{
+	width:48%;
+} 
+
+#page13 table{
+	width: 50%;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+#page13 table td{
+
+	padding: 5px;
+	border: 1px solid;
+}
+#page13 table td:first-child{
+	text-align: center;
+	width: 20%;
+}
+
+#page13 table td:not(:first-child){
+	text-decoration: underline;
+}
+#page13 .editHeader{
+	cursor: pointer;
+}
+#page13 .displayText{
+	display: none;
+}

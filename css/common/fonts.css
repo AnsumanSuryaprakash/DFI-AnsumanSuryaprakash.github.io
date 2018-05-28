@@ -1,0 +1,131 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'adelle_ltlight';
+    src: url('/file/serve/6192888237785088');
+    src: url('/file/serve/6192888237785088?#iefix') format('embedded-opentype'),
+         url('/file/serve/4765965615890432') format('woff'),
+         url('/file/serve/6385140167868416') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'adelle_sbsemibold';
+    src: url('/file/serve/5399634420432896');
+    src: url('/file/serve/5399634420432896?#iefix') format('embedded-opentype'),
+         url('/file/serve/5526380784386048') format('woff'),
+         url('/file/serve/6368579981934592') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'populairemedium';
+    src: url('/file/serve/4723953185325056');
+    src: url('/file/serve/4723953185325056?#iefix') format('embedded-opentype'),
+         url('/file/serve/6454815476154368') format('woff'),
+         url('/file/serve/5328915569311744') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sweet_sansregular';
+    src: url('/file/serve/5348463307653120');
+    src: url('/file/serve/5348463307653120?#iefix') format('embedded-opentype'),
+         url('/file/serve/4993911811211264') format('woff'),
+         url('/file/serve/5017943294083072') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sweet_sansbold';
+    src: url('/file/serve/6747037601890304');
+    src: url('/file/serve/6747037601890304?#iefix') format('embedded-opentype'),
+         url('/file/serve/5796027555381248') format('woff'),
+         url('/file/serve/6289263747137536') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geogrotesque_lglight';
+    src: url('/file/serve/5891865522733056');
+    src: url('/file/serve/5891865522733056?#iefix') format('embedded-opentype'),
+         url('/file/serve/5163363840294912') format('woff'),
+         url('/file/serve/5214677492301824') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geogrotesque_rgregular';
+    src: url('/file/serve/4515475472777216');
+    src: url('/file/serve/4515475472777216?#iefix') format('embedded-opentype'),
+         url('/file/serve/5911413261074432') format('woff'),
+         url('/file/serve/5167411779862528') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geogrotesque_smbdsemibold';
+    src: url('/file/serve/6401286694764544');
+    src: url('/file/serve/6401286694764544?#iefix') format('embedded-opentype'),
+         url('/file/serve/4649323833589760') format('woff'),
+         url('/file/serve/5760931632775168') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'calibri';
+    src: url('/file/serve/4670127648538624');
+    src: url('/file/serve/4670127648538624?#iefix') format('embedded-opentype'),
+         url('/file/serve/6525534327275520') format('woff'),
+         url('/file/serve/5097474679898112') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'calibri-light';
+    src: url('/file/serve/4785513354231808');
+    src: url('/file/serve/4785513354231808?#iefix') format('embedded-opentype'),
+         url('/file/serve/4977765284315136') format('woff'),
+         url('/file/serve/6529444827889664') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

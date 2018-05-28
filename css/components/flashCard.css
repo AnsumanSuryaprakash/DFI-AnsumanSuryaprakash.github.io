@@ -1,0 +1,241 @@
+.flashCardComp{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.flashCrdContainer{
+	width:100%;
+	height:100%;
+	position:relative;	
+	perspective:800px;
+	-webkit-perspective:800px;
+	-moz-perspective:800px;
+	-ms-perspective:800px;
+	-o-perspective:800px;
+	overflow:hidden;
+	/*added by georges*/
+	background:white;
+	/*-----------------*/
+	}
+.flashCrdWrapper{
+	perspective:800;
+	-webkit-perspective:800px;
+	-moz-perspective:800px;
+	-ms-perspective:800px;
+	-o-perspective:800px;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+	top:25%;
+	bottom: 25%;	
+	width:100%;	
+	height: 50%;
+	}
+.flashCrdSlider{
+	width:40%;
+	height: 100%;
+	left:30%;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	position:absolute;
+	opacity:0;
+	top:0;
+	font-size:20px;
+	color: white;
+	line-height: 2vw;
+	}
+
+.flashCrdSlider:before{
+	content: "";
+	display: block;
+	padding-top:75%;
+	}		
+.flashCrdContent{
+	padding:1%;
+	width:98%;	
+	height:98%;
+	text-align:center;
+	display: table;	
+}		
+.flashCrd{
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 25px;
+	padding: 7%;
+	line-height: 35px;
+	}
+.flashCrdSlider.bespoke-active{
+	opacity:1;
+	z-index:20;
+	cursor:pointer
+	}
+.flashCrdContentFront,.flashCrdContentBack{
+	position:absolute;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	border-radius:20px;
+	top:0;
+	left:0;
+	transition:all .4s ease-in-out;
+	-webkit-transition:all .4s ease-in-out;
+	-moz-transition:all .4s ease-in-out
+	-ms-transition:all .4s ease-in-out;
+	-o-transition:all .4s ease-in-out;
+	}
+.flashCrdContentFront{
+	color:#fff;
+	z-index:10;
+	background-color: #029eb4 !important;
+	}
+.flashCrdContentBack{
+	color:#fff;
+	background: #029eb4;
+	}
+.audio-element-play-tatweer{
+	background:url(../../images/tatweer-audio.png) no-repeat center /contain;
+}	
+.audio-element-pause-tatweer{
+	background:url(../../images/tatweer-audio-pause.png) no-repeat center /contain;
+}	
+.flipped .flashCrdContentFront{
+	z-index:5;
+	transform:rotateX(180deg);
+	-webkit-transform:rotateX(180deg);
+	-moz-transform:rotateX(180deg);
+	-ms-transform:rotateX(180deg);
+	-o-transform:rotateX(180deg);
+	}
+.flipped .flashCrdContentBack{
+	z-index:10;
+	transform:rotateX(0);
+	-webkit-transform:rotateX(0);
+	-moz-transform:rotateX(0)
+	-ms-transform:rotateX(0);
+	-o-transform:rotateX(0);
+	}
+.flashCrdContentFront{
+	cursor:pointer;
+	transform:rotateX(0);
+	-webkit-transform:rotateX(0);
+	-moz-transform:rotateX(0);
+	-ms-transform:rotateX(0);
+	-o-transform:rotateX(0);
+	}
+.flashCrdContentBack{
+	cursor:pointer;
+	transform:rotateX(0);
+	-webkit-transform:rotateX(-180deg);
+	-moz-transform:rotateX(-180deg);
+	-ms-transform:rotateX(-180deg);
+	-o-transform:rotateX(-180deg)
+	}
+.flashCrdSlider.bespoke-slide{
+	transition:-transform .7s ease,opacity .7s ease,background-color .7s ease;
+	-webkit-transition:-webkit-transform .7s ease,opacity .7s ease,background-color .7s ease;
+	-moz-transition:-moz-transform .7s ease,opacity .7s ease,background-color .7s ease;	
+	-ms-transition:-ms-transform .7s ease,opacity .7s ease,background-color .7s ease;
+	-o-transition:-o-transform .7s ease,opacity .7s ease,background-color .7s ease;
+	}
+.flashCrdSlider.bespoke-before{
+	transform:translateX(-50%) rotateY(-60deg) translateX(-55%);
+	-webkit-transform:translateX(-50%) rotateY(-60deg) translateX(-55%);
+	-moz-transform:translateX(-50%) rotateY(-60deg) translateX(-55%);
+	-ms-transform:translateX(-50%) rotateY(-60deg) translateX(-55%);
+	-o-transform:translateX(-50%) rotateY(-60deg) translateX(-55%);
+	}
+.flashCrdSlider.bespoke-before-1{
+	transform:translateX(-55%) rotateY(-50deg) translateX(-55%);
+	-webkit-transform:translateX(-55%) rotateY(-50deg) translateX(-55%);
+	-moz-transform:translateX(-55%) rotateY(-50deg) translateX(-55%);
+	-ms-transform:translateX(-55%) rotateY(-50deg) translateX(-55%);
+	-o-transform:translateX(-55%) rotateY(-50deg) translateX(-55%);
+	opacity:.7;
+	z-index:10
+	}
+.flashCrdSlider.bespoke-before-2{
+	transform:translateX(-125%) rotateY(-90deg) translateX(-145%);
+	-webkit-transform:translateX(-125%) rotateY(-90deg) translateX(-145%);
+	-moz-transform:translateX(-125%) rotateY(-90deg) translateX(-145%);
+	-ms-transform:translateX(-125%) rotateY(-90deg) translateX(-145%);
+	-o-transform:translateX(-125%) rotateY(-90deg) translateX(-145%);
+	opacity:.5;
+	z-index:5
+	}
+.flashCrdSlider.bespoke-after,.flipped.bespoke-after{
+	transform:translateX(50%) rotateY(60deg) translateX(55%);
+	-webkit-transform:translateX(50%) rotateY(60deg) translateX(55%);
+	-moz-transform:translateX(50%) rotateY(60deg) translateX(55%)
+	-ms-transform:translateX(50%) rotateY(60deg) translateX(55%);
+	-o-transform:translateX(50%) rotateY(60deg) translateX(55%);
+	}
+.flashCrdSlider.bespoke-after-1,.flipped.bespoke-after-1{
+	transform:translateX(55%) rotateY(50deg) translateX(55%);
+	-webkit-transform:translateX(55%) rotateY(50deg) translateX(55%);
+	-moz-transform:translateX(55%) rotateY(50deg) translateX(55%);	
+	-ms-transform:translateX(55%) rotateY(50deg) translateX(55%);
+	-o-transform:translateX(55%) rotateY(50deg) translateX(55%);
+	opacity:.7;
+	z-index:10
+	}
+.flashCrdSlider.bespoke-after-2{
+	transform:translateX(125%) rotateY(90deg) translateX(145%);
+	-webkit-transform:translateX(125%) rotateY(90deg) translateX(145%);
+	-moz-transform:translateX(125%) rotateY(90deg) translateX(145%);
+	-ms-transform:translateX(125%) rotateY(90deg) translateX(145%);
+	-o-transform:translateX(125%) rotateY(90deg) translateX(145%);
+	opacity:.5;
+	z-index:5
+	}
+.flashCrdImgFront,.flashCrdImgBack{
+	pointer-events:none;
+	border-radius:10px;
+	position:absolute;
+	top:5%;
+	left:5%;
+	width:90%;
+	height:90%
+	}
+.flashCrdAudio{
+	width:15%;
+	height:15%;
+	margin: 10px auto;
+	}
+.flashCrdRightArrow{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	background: url(../../images/fc-next-act.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	z-index: 100;
+}
+.flashCrdLeftArrow{
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	background: url(../../images/fc-previous-act.png) center no-repeat;
+	width: 40px;
+	height: 40px;	
+	cursor: pointer;
+	z-index: 100;
+}
+.flashCrdLeftArrow:hover{
+	background: url(../../images/fc-previous-act-hover.png) center no-repeat;
+}
+.flashCrdRightArrow:hover{
+	background: url(../../images/fc-next-act-hover.png) center no-repeat;	
+}
+.flashCrdLeftArrow.disabled{
+	background: url(../../images/fc-previous-inact.png) center no-repeat;	
+}
+.flashCrdRightArrow.disabled{
+	background: url(../../images/fc-next-inact.png) center no-repeat;	
+}

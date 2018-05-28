@@ -1,0 +1,1084 @@
+{
+    "questions": [
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following words means \"to stop temporarily\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "occupy",
+                        "suspend",
+                        "incorporate",
+                        "goal"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a flat piece of material attached to a surface?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "area",
+                        "panel",
+                        "design",
+                        "link"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>Because it is based on a true story, the novel provides _____________ portrayal of life in the 19th Century.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "an accurate",
+                        "a declined",
+                        "an enormous",
+                        "a minor"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>We took _____ route because the main road was closed.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "an alternative",
+                        "an enormous",
+                        "a minimal",
+                        "a robust "
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What’s an antonym for \"minimal\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "minimum",
+                        "maximum",
+                        "maximal",
+                        "minus"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"minor\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "minder",
+                        "major",
+                        "miner",
+                        "maxim"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What is a means of getting from one place to another?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "vision",
+                        "area",
+                        "transport",
+                        "symbol"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a building that you can easily access?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accessed",
+                        "accessible",
+                        "accessing",
+                        "accessory"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which word means \"to live in or take possession of\" a place?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "access",
+                        "accommodate",
+                        "occupy",
+                        "restore"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which word means \"to return to an original state\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accommodate",
+                        "transport",
+                        "restore",
+                        "suspend"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>The government ________ a huge dam to keep the valley from flooding.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accommodated",
+                        "occupied",
+                        "constructed",
+                        "suspended"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>For five years Marty was _____ in his desire to play basketball at a professional level.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "minor",
+                        "classic",
+                        "steadfast",
+                        "robust"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"collapse\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "fall down",
+                        "construct",
+                        "decline",
+                        "withstand"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is a synonym for \"robust\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "powerful",
+                        "robot",
+                        "fatigued",
+                        "obese"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call someone who occupies a building?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "occupied",
+                        "occupation",
+                        "occupant",
+                        "occupying"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What is the adjectival form of \"symbol\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "symbolic",
+                        "symbolism",
+                        "symbolized",
+                        "symbols"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which word means \"a change or alteration\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "alternative",
+                        "benefit",
+                        "alternation",
+                        "adjustment"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What does the word \"withstand\" mean?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "to fall down",
+                        "to provide support",
+                        "to stand steady or firm",
+                        "to resist or oppose"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "The reading passage states that the building of the White House in the late eighteenth century \"marked the foundation of a new republic\". What does the word \"foundation\" mean in this context?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "something discovered",
+                        "the basement",
+                        "support",
+                        "building"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>Although he believed in the plan, he could not _____the opposition to it.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "walk away from",
+                        "withstand",
+                        "sit near",
+                        "fall into"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is a synonym for \"accurate\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "incorrect",
+                        "vague",
+                        "precise",
+                        "true"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"steadfast\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "changeable",
+                        "consistent",
+                        "slow",
+                        "flowing"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "On a stop sign the word \"STOP\" is written on which of the following?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "foundation",
+                        "link",
+                        "panel",
+                        "section "
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is a \"classic\" movie?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "a movie that is new and considered classy",
+                        "a movie that is old and still considered good",
+                        "a movie that is new but about older times",
+                        "a movie that is old but like a new film"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        }
+    ]
+}

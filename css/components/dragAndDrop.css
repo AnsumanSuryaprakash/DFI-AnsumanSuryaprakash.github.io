@@ -1,0 +1,551 @@
+.dndSideHeader{
+
+}
+.dragAndDropComp{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.dragAndDropComp.bannerFeedback .blockedComponent{
+	/*bottom: 115px;*/
+}
+.blockedComponent{
+	top: 0;
+	bottom: 0px;
+	width: 100%;
+	position: absolute;
+	z-index: 120;
+	display: none;	
+}
+.dndContainer{
+	width: 100%;
+	position: absolute;
+	bottom: 80px;	
+	overflow: hidden;	
+	padding: 5px 10px 0px 10px;
+	font-family: arial;
+}	
+.dndContainer.table.tableWithSideHeader table{
+	table-layout: auto;
+}
+.dndContainer.table{
+	padding: 15px 10px 0px 10px;
+}
+.dndContainer.table.tableWithTopHeader{
+	padding: 35px 10px 0px 10px;
+}
+.tableOrdering{
+	padding: 0;	
+}
+.dragAndDropComp.bannerFeedback .dndContainer{
+	bottom: 115px;
+}
+.dragAndDropComp.noFeedback .dndContainer{
+	bottom: 15px;
+}
+.dndQuestion{
+/*	display: flex;
+	justify-content:center;
+	align-items:center;	
+	margin-top:10px;*/
+}
+.dndTable{
+	width: 100%;			
+	border-collapse: collapse;
+	table-layout:fixed;	
+	height: 75%;
+}
+.dndCell{	
+	/*background: #F3E7F1;*/
+	margin:0;
+	padding:.5%;
+	vertical-align: middle;
+	/*box-shadow: 0 0 0 1px #960F6E inset;*/
+	/*font-family: arial;*/
+	text-align: center;
+}
+.dndContainer table {
+	border-spacing: 10px 0px;
+	border-collapse: separate;
+}
+.dndContainer.tableWithTopHeader tbody .dndCell{
+	top: -20px;
+}
+.dndContainer tbody .dndCell{
+	position: relative;
+	text-align: center;
+	margin: 0px auto;
+	background-color: rgba(208, 65, 0, 0.2);
+	padding: 5px 5px 15px 5px; 
+}
+.dndContainer tbody .dndCell .dndCellDiv{
+	background: white;
+	width: 100%;
+	margin: auto;
+	transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-o-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-ms-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-moz-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-webkit-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	box-shadow: 0 0 2px 1px #ccc;
+	height: 100%;
+	padding: 5px; 
+	min-height: 40px;
+
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction:column;
+    flex-direction: column;
+    -webkit-align-items:center;
+    align-items: center;
+    -webkit-justify-content:space-around;
+    justify-content: space-around;
+}
+.dndContainer thead .dndHeaderDiv{
+	transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-o-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-ms-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-moz-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-webkit-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	box-shadow: 0 0 2px 1px #ccc;
+	color: #fff;
+	height: 35px;
+	width: 90%;
+	margin: auto;	
+	line-height: 35px;
+}
+.dndContainer thead .dndHeaderDiv div{
+	transform: skew(10deg,0deg) translate3d(0,0,0);
+	-o-transform: skew(10deg,0deg) translate3d(0,0,0);
+	-ms-transform: skew(10deg,0deg) translate3d(0,0,0);
+	-moz-transform: skew(10deg,0deg) translate3d(0,0,0);
+	-webkit-transform: skew(10deg,0deg) translate3d(0,0,0);
+}
+.dndContainer thead .dndCell{
+	position: relative;
+	z-index: 100;	
+	top: -20px;
+}
+.dndContainer.ar .dndCell{
+	text-align: right;
+}
+.dndTable .slot{
+	background: #fff;
+	text-align: center;	
+}
+.dndComponentData{
+	width: 100%;	
+	float: left;		
+	height: 25%;	
+	margin:0% 0% 0 0%; 
+	border-radius:10px;	
+}
+.table .dndComponentData{
+	border-radius: 0 0 10px 10px;
+}
+.free .dndComponentData{
+	margin: 0;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	box-shadow:0 0 0 0 #fff;
+}
+.dndComponentData.htmlDraggables{
+	padding-top: 10px;
+}
+.dndComponentData.htmlDraggables .dndComponentDataList{
+	text-align: left;  
+	display: block;
+}
+.dndComponentDataList{						
+	width: 100%;				
+	height: 100%;
+	text-align: center;  
+	-webkit-align-items: center;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content:center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap:wrap;
+	-webkit-align-items: center;
+	align-items:center;  
+}
+.free .dndComponentDataList{
+	width: auto;
+	height: 100%;
+	text-align: center;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	-webkit-flex-wrap:wrap;
+	-webkit-align-items: center;
+	align-items: center;
+	box-shadow: 0px 0px 0px 2px #960F6E inset;
+	float: left;
+	border-radius: 10px;
+	padding: 5px;
+	min-width: 10%;
+}
+.table.img .dndCellContent{	
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+	flex-direction: row;
+    -webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+    justify-content: center;
+}
+.table.img .dndComponentDataList,.free.img .dndComponentDataList{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+	flex-direction: row;
+    -webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap:wrap;
+    flex-wrap: nowrap;
+}
+
+.dndDragContainer{	
+	padding:0% 1%;
+	color: #fff;
+	background: #960F6E;
+	border-radius: 5px;	
+	margin:1% 1% 1% 1%;
+	text-align: center; 		
+	float: left;		
+	box-shadow: 0 0 2px 2px #ccc;
+}
+
+.dndContainer.table .dndCell .slot .dndDragContainer{
+	transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	/*width: 100% !important;
+	height: 100% !important;*/
+	margin: 0;
+	float: none;
+	background: #29abe2;
+	border-radius: 0;	
+	display: table;
+}
+.dndContainer.table .dndCell .slot .dndDragContainer .dndDrag{
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+.dndContainer.table .dndComponentData .dndDragContainer{
+	/* transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-ms-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-o-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-moz-transform: skew(0deg,-1deg) translate3d(0,0,0);
+	-webkit-transform: skew(0deg,-1deg) translate3d(0,0,0); */
+	background: #29abe2;
+	border: 1px solid #FFFFFF;
+	border-radius: 0;	
+}
+
+.dndContainer.table .dndComponentData .dndDragContainer .dndDrag{
+	padding: 0;
+	transform: skew(0deg,0deg) translate3d(0,0,0);
+	-ms-transform: skew(0deg,0deg) translate3d(0,0,0);
+	-o-transform: skew(0deg,0deg) translate3d(0,0,0);
+	-moz-transform: skew(0deg,0deg) translate3d(0,0,0);
+	-webkit-transform: skew(0deg,0deg) translate3d(0,0,0);
+}
+
+.dndContainer.table .ui-state-disabled, .dndHTML .ui-widget-content .ui-state-disabled, .dndHTML .ui-widget-header .ui-state-disabled{
+	opacity: 1; 
+	filter: Alpha(Opacity=100);
+}
+
+.table.img .dndComponentData .dndDragContainer{
+	height: 90%;
+}
+.dndComponentDataList .dndDragContainer{		
+	float: none;
+	display: inline-block;	
+}
+.img .dndDragContainer{	
+	padding:.5%;
+	background: none;	
+	margin: 0;	
+	box-shadow: 0 0 0 0 #fff;	
+}
+.free.img .dndDragContainer{ 			
+	margin: 0 10px;		
+}
+.dndDragContainer:hover{
+	cursor: move;
+}
+.dndCell .dndDragContainer{
+	width: 98% !important;		
+	padding: 0;
+	margin:1%;
+	float: left;
+	min-height: 20px;		
+}
+.dndDrag{
+	text-align: center;
+	min-width: 39px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	padding: 3px;
+}
+.dndContainer.img .dndCell .dndDragContainer{
+	width: none;		
+	padding: .5%;	 
+	background: none;	
+}
+.dndDragContainer.ui-draggable-dragging{	
+	position: relative;
+	z-index: 100;
+}
+
+.ordering .dndComponentData{
+	position: relative;
+	float: left;	
+	box-shadow: 0 0 0 0 #fff;
+	margin-top: 0;	
+	height: 100%;
+}
+.ordering .dndDragContainer, .img.ordering .dndDragContainer{
+	width: 99%;
+	padding: 1%;
+	position: relative;	
+	background:#F3E7F1;
+	box-shadow: 0 0 0 2px #960F6E; 
+	color: #960F6E;
+	max-width: 100%;	
+}
+.dndFreeLayout{	
+	position: relative;
+	height: 75%;
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.dndFreeLayoutData.slot{
+	position: absolute;
+	border-radius: 5px;
+/*	border: 1px #960F6E solid;
+	background: #fff;*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content:center;
+	-webkit-align-items: center;
+	align-items:center;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+.dndFreeLayout .slot .dndDragContainer{
+	padding: .5%;
+	min-width: 0;
+	overflow: hidden;	
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content:center;
+	-webkit-align-items: center;
+	align-items:center;	
+	width: 99%;
+}
+.dndFreeLayout .slot .dndDragContainer img{
+	height:100%;
+	width: auto;
+}
+.dndFreeLayout .dragging img{
+	height:100%;
+	width: auto;
+}
+.dndContainer.free{
+	/*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.dndCell .slot.incorrectAnswer, .dndDragContainer.incorrectAnswer{
+	box-shadow:0 0 0 2px #D10000 inset !important;
+}
+.dndFreeLayoutData.slot.incorrectAnswer, .dndHTML .slot.incorrectAnswer{
+	border:1px solid #D10000 !important;
+}
+.dndCell .slot.correctAnswer, .dndDragContainer.correctAnswer{
+	box-shadow:0 0 0 2px #00B700 inset !important;
+}
+.dndFreeLayoutData.slot.correctAnswer, .dndHTML .slot.correctAnswer{
+	border:1px solid #00B700 !important;
+}
+.tableOrdering{
+	/*display: flex;
+	justify-content:center;
+	align-items:center;*/
+}
+.tableOrdering .dndTable, .tableOrdering .dndComponentData{
+	width: 43%;			
+	border-collapse: collapse;
+	table-layout:fixed;	
+	height: 100% !important;
+	background:#F3E7F1; 
+	position: absolute;
+	right: 5%;
+	/*top: 15%;*/
+	margin: 0;
+}
+.tableOrdering .dndComponentData{
+	left: 5%;
+	font-size: 17px;
+}
+.tableOrdering .dndCell, .tableOrdering.ar .dndCell{
+	text-align: center;
+}
+.tableOrdering .dndComponentData .dndDragContainer{
+	float: left;
+	width: 96%;
+	margin: 0 2% 2% 2%;
+}
+.dndQuestionAudio{
+	width:45px;
+	height:35px;
+	cursor: pointer;
+	background: url('../../../runtime/images/global/audioPlay.png') center no-repeat;	
+}
+.dndQuestionAudio.paused{
+	background: url('../../../runtime/images/global/audioPlay.png') center no-repeat;
+}
+.dndQuestionAudio.played{
+	background: url('../../../runtime/images/global/audioPause.png') center no-repeat;
+}
+.dndFreeContainer{
+	position: relative;
+}
+
+/**************************************************************************/
+
+.dndHTML{
+	height: 75%;
+	font-size:80%;
+	line-height: 35px;
+	padding-top:2%;
+}
+.dndHTML.textSlot{
+	display: inline-block;
+}
+.dndHTML .slot{
+	display: inline-block;
+	width:110px;
+	height: 35px;
+	border: 1px solid;
+	vertical-align: -10px;
+	transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-o-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-moz-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-webkit-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+}
+.dndHTML .slot .dndDragContainer{
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 0;
+	transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	position: relative;
+
+}
+.dndHTML .slot .innerSlot{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	padding: 3px;
+}
+.htmlMode .dndDragContainer{
+	/* -o-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-moz-transform: skew(-10deg,-1deg) translate3d(0,0,0);
+	-webkit-transform: skew(-10deg,-1deg) translate3d(0,0,0); */
+	background: #29abe2;
+	border:1px solid #FFFFFF;
+	border-radius: 0;
+}
+.htmlMode .dndDragContainer .dndDrag{
+	/* transform: skew(10deg,1deg) translate3d(0,0,0);
+	-o-transform: skew(10deg,1deg) translate3d(0,0,0);
+	-moz-transform: skew(10deg,1deg) translate3d(0,0,0);
+	-webkit-transform: skew(10deg,1deg) translate3d(0,0,0); */
+}
+.dndHTML .slot .dndDragContainer .dndDrag{
+	padding: 0;
+	height:100%;
+	transform: skew(10deg,1deg) translate3d(0,0,0);
+	-o-transform: skew(10deg,1deg) translate3d(0,0,0);
+	-moz-transform: skew(10deg,1deg) translate3d(0,0,0);
+	-webkit-transform: skew(10deg,1deg) translate3d(0,0,0);
+}
+
+.dndHTML .ui-state-disabled, .dndHTML .ui-widget-content .ui-state-disabled, .dndHTML .ui-widget-header .ui-state-disabled{
+	opacity: 1; 
+	filter: Alpha(Opacity=100);
+}
+
+.dndContainer.table .dndComponentData .dndDragContainer.dndDragHTML{	
+	padding: 0; 
+	display: inline-block;
+	border-radius: 0;
+	margin: 0;
+	text-align: left;
+	color:#000;
+	box-shadow: none; 
+	transform: none; 
+	-o-transform: none; 
+	-moz-transform: none; 
+	-webkit-transform: none; 
+}
+
+.dndContainer.table .dndComponentData .dndDragContainer.dndDragHTML .dndDrag{
+	transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+}	
+
+.slotDefaultText{
+	position: absolute;
+	top: -8px;
+	line-height: 38px;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+	color: rgba(0,0,0,0.7);
+}
+.dragAndDropComp .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+	opacity:1;
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	12 COLUMN - RESPONSIVE GRID SYSTEM
+	RE-DEVELOPED BY DAVID ROONEY TO ALLOW FOR MULTI-LEVEL GRID ROWS AND ADDED 
+	MEDIA QUERY SUPPORT FOR IE8 VIA JS, WHICH IS REQUIRED FOR A MOBILE FIRST APPROACH.
+	( WITH THANKS TO DENIS LEBLANC FOR THE ORIGINAL - http://responsive.gs )
+	URL - http://zavadesign.com
+	VERSION - 1.0
+	LICENSED UNDER GPL & MIT
+*/
+
+
+/* 	SET ALL ELEMENTS BOX-SIZING TO BORDER-BOX
+	If you need support for IE7 and lower use polyfill: https://github.com/Schepp/box-sizing-polyfill */
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* MAIN CONTAINER */
+.container { 
+	margin: 0 auto;
+/*	overflow: hidden;*/
+}
+
+/* SELF CLEARING FLOATS - CLEARFIX METHOD */
+.row:after, .col:after, .clr:after, .group:after { 
+	content: ""; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+										  
+/* DEFAULT ROW STYLES */
+.row { 
+	/*letter-spacing: -0.31em;  webkit: collapse white-space between units */
+	/*word-spacing: -0.31m;  IE < 8 && gecko: collapse white-space between units */
+}
+
+/* DEFAULT COLUMN STYLES */
+.col { 
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 0.8em; /* set according to preference 1.4em*/
+	letter-spacing: normal; /* webkit: reset white-space between units */
+    word-spacing: normal; /* IE < 8 && gecko: rest white-space between units */
+	vertical-align: top;
+	/*position: relative;*/
+}
+
+/* MEDIA QUERIES FOR DISPLAYS +940px */
+@media ( min-width : 940px ) {
+	.container {} /* Add a width here if you'd like a max width for your site */
+	/* .row { margin: 0 -1.04%; } */ /* Uncomment this style if you would like to remove default margins around rows */
+	.col { margin-left: 0.5%; margin-right: 0.5%; }
+	
+	/* column widths +768px */
+	.colspan_1 { width: 6.6%; }
+	.colspan_2 { width: 15.09%; }
+	.colspan_3 { width: 23.39%; }
+	.colspan_4 { width: 31.75%; }
+	.colspan_5 { width: 39.7%; }
+	.colspan_6 { width: 48.12%; }
+	.colspan_6_ActivityType { width: 48.5%; }	
+	.colspan_7 { width: 56.6%; }
+	.colspan_8 { width: 64.55%; }
+	.colspan_9 { width: 73%; }
+	.colspan_10 { width: 81.3%; }
+	.colspan_11 { width: 89.7%; }
+	.colspan_12 { width: 97.6%; }
+	.colspan_12_ActivityType { width: 100%; }	
+	
+	.rowspan_1 { height: 15.66%; }
+	.rowspan_1_ActivityType { height: 30px !important; }	
+	.rowspan_2 { height: 31%; }
+	.rowspan_2_ActivityType { height: 28.33%; }	
+	.rowspan_3 { height: 48.5%; }
+	.rowspan_3_ActivityType { height: 45.7%; }
+	.rowspan_4 { height: 66.16%; }
+	.rowspan_4_ActivityType { height: 61.66%; }	
+	.rowspan_5 { height: 82.33%; }
+	.rowspan_5_ActivityType { height: 86.5%; }	
+	.rowspan_6 { height: 99%; }
+	.rowspan_6_ActivityType { height: 96% !important;}
+}

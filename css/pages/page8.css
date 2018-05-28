@@ -1,0 +1,22 @@
+#page8 .imgDiv{
+	width:100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#page8 .imgObj1{
+	width:55%;
+} 
+#page8 table td{
+	border: 1px solid rgba(255,120,0,1);
+}
+#page8 table thead tr:first-child td{
+	background-color: rgba(255,120,0,1);
+	text-align: center;
+}
+#page8 .clickable:hover{
+	cursor:pointer;
+	background-color:rgba(255,120,0,1);
+}
+#page8 .clicked{
+	background-color:rgba(255,120,0,1);
+}

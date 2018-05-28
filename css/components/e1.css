@@ -1,0 +1,585 @@
+
+.flashcard-parent-selector{
+	height: 100%;
+}
+
+.flashcards-mainwrapper{
+display: table;
+text-align: center;
+width: 100%;
+height: 100%;
+vertical-align: middle;
+}
+
+.flashcard-slider{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+	clear: both;
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/************ Wrapper And Content ***********/
+.extrasmall-fc .flashcard-wrapper{ 
+	-webkit-perspective: 100px;
+	-moz-perspective: 100px;
+	-ms-perspective: 100px;
+	-o-perspective: 100px;
+	perspective: 100px;
+	margin-left: 200px;
+	margin-top: 140px;
+} 
+.small-fc .flashcard-wrapper {
+-webkit-perspective: 500px;
+-moz-perspective: 500px;
+-ms-perspective: 500px;
+-o-perspective: 500px;
+perspective: 500px;
+margin-left: 388px;
+margin-top: 270px
+}
+
+.medium-fc .flashcard-wrapper{
+	-webkit-perspective: 400px;
+	-moz-perspective: 400px;
+	-ms-perspective: 400px;
+	-o-perspective: 400px;
+	perspective: 400px;
+	margin-left: 388px;
+	margin-top: 114px;
+}
+.large-fc .flashcard-wrapper{ 
+	-webkit-perspective: 400px;
+	-moz-perspective: 400px;
+	-ms-perspective: 400px;
+	-o-perspective: 400px;
+	perspective: 400px;
+	margin-left: 350px;
+	margin-top: 300px;
+}
+
+.extrasmall-fc .flashcard-content {
+	width: 200px;
+	margin-left: -200px;
+	margin-top: -123px ;
+	height: 126px;
+}
+.small-fc .flashcard-content {
+	width: 232px;
+	margin-left: -316px;
+	margin-top: -225px;
+	height: 170px;
+}
+
+.medium-fc  .flashcard-content {    
+	margin-left: -320px;
+	width: 320px;
+	margin-top: -103px;
+	height: 200px;
+}
+.large-fc .flashcard-content {  
+width: 400px;
+margin-left: -400px;
+margin-top: -268px;
+height: 300px;
+}
+
+
+
+/************                                               **********/
+
+/******************************** Common Css *****************************************************/ 
+.flashcard-content {
+top: 50%;
+left: 50%;
+float: left;
+position: relative;
+opacity: 0;
+color: white;
+}
+.flashcard-content.bespoke-slide {
+	-webkit-transition: -webkit-transform .7s ease, opacity .7s ease, background-color .7s ease;
+	-moz-transition: -moz-transform .7s ease, opacity .7s ease, background-color .7s ease;
+	-ms-transition: -ms-transform .7s ease, opacity .7s ease, background-color .7s ease;
+	-o-transition: -o-transform .7s ease, opacity .7s ease, background-color .7s ease;
+	transition: transform .7s ease, opacity .7s ease, background-color .7s ease;
+}
+.flashcard-content.bespoke-active {
+	opacity: 1;
+	z-index: 1;
+	transform: skewX(-5deg);
+	-o-transform: skewX(-5deg);
+	-moz-transform: skewX(-5deg);
+	-webkit-transform: skewX(-5deg);
+
+}
+.flashcard-back  , .flashcard-front {
+	float: none;
+	position: absolute;
+	z-index: 900;
+	width: inherit;
+	height: inherit;
+	color:#FFF;
+	padding:10px;
+	text-align: center;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+
+	-ms-transform: rotateX(0deg) rotateY(0deg);
+	-ms-transform-style: preserve-3d;
+	-ms-backface-visibility: hidden;
+
+	/* -- transition is the magic sauce for animation -- */
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	 transition: all .4s ease-in-out;
+}
+
+/* -- X axis rotation for click flashcard-content -- */
+.flashcard-flip .flashcard-front {
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+}
+.flashcard.flip .flashcard-back {
+	z-index: 1000;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+}
+.flashcard-click .flashcard-front {
+	cursor: pointer;
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+}
+.flashcard-click.flashcard-flip .flashcard-front {
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-ms-transform: rotateX(180deg);
+}
+.flashcard-click .flashcard-back {
+	cursor: pointer;
+	-webkit-transform: rotateX(-180deg);
+	-moz-transform: rotateX(-180deg);
+	-ms-transform: rotateX(-180deg);
+}
+.flashcard-click.flashcard-flip .flashcard-back {
+	-webkit-transform: rotateX(0deg);
+	-moz-transform: rotateX(0deg);
+	-ms-transform: rotateX(0deg);
+}
+ 
+ /*Fix Here */
+.flashcard-front ,.flashcard-back{
+		display: -moz-box;      
+		-moz-box-align: center;
+		-moz-box-pack:center;
+
+		display: -webkit-box;
+		-webkit-box-align: center;
+		-webkit-box-pack: center;
+		
+		display: -ms-box;
+		-ms-box-pack: center;
+		-ms-box-align: center;
+
+		display: box;
+		box-pack: center;
+		box-align: center;
+	}
+
+.flashcard-front img ,.flashcard-back img{
+ -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+  border-radius: 9px;
+
+	}
+
+
+	.flashcard-slider ul li{
+	text-decoration: none;
+	list-style-type: none;
+	list-style: none;
+	height: 100%;
+	margin-bottom: 50px;
+	}
+
+
+
+
+.flashcard-arrow {
+font-weight: 900;
+clear: both;
+width: 48px;
+height: 26px;
+background-image: url(../../images/flashcard-arrow.png);
+background-repeat: no-repeat;
+text-align: left;
+padding-left: 5px;
+padding-top: 3px;
+float: left;
+margin-left: -50px;
+}
+
+.flashcard-text {
+padding-top: 8px;
+margin-left: 10px;
+float:left;
+margin-
+top: 20px;
+}
+
+
+
+ /**************************   End OF common ****************************************************************/
+
+
+
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+/********               Front And Back Styling      style here **************/
+.extrasmall-fc .flashcard-back,.extrasmall-fc .flashcard-front {
+	border-radius: 11px;
+}
+.small-fc .flashcard-back,.small-fc .flashcard-front {
+	border-radius: 11px;
+}
+.medium-fc .flashcard-front , .medium-fc .flashcard-back{
+	border-radius:11px;
+}
+
+.large-fc .flashcard-front , .large-fc .flashcard-back{ 
+	/*border-radius: 30px;*/}
+
+
+
+
+
+/********               Front And Back Styling      style here **************//********        
+	   Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+	   /********               Front And Back Styling      style here **************/
+
+	   /*********************************************** Extra Small ******************************************************************/
+.extrasmall-fc .flashcard-content.bespoke-before {
+	-webkit-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-moz-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-ms-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-o-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	opacity: 0;
+}
+.extrasmall-fc  .flashcard-content.bespoke-before-2 {
+	-webkit-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-moz-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-ms-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-o-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	opacity: 0;
+}
+.extrasmall-fc  .flashcard-content.bespoke-before-1 {
+-webkit-transform: translateX(-90px) rotateY(-9deg) translateX(-126px);
+-moz-transform: translateX(-90px) rotateY(-9deg) translateX(-126px);
+-ms-transform: translateX(-90px) rotateY(-9deg) translateX(-126px);
+-o-transform: translateX(-90px) rotateY(-9deg) translateX(-126px);
+transform: translateX(-90px) rotateY(-9deg) translateX(-126px);
+opacity: 0.5;
+
+}
+.extrasmall-fc .flashcard-content.bespoke-after {
+	-webkit-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-moz-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-ms-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-o-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	transform: translateX(680px) rotateY(72deg) translateX(990px);
+	opacity: 0;
+}
+.extrasmall-fc .flashcard-content.bespoke-after-1 {
+-webkit-transform:  translateX(105px) rotateY(21deg) translateX(104px);
+-moz-transform: translateX(105px) rotateY(21deg) translateX(104px);
+-ms-transform: translateX(105px) rotateY(21deg) translateX(104px);
+-o-transform: translateX(105px) rotateY(21deg) translateX(104px);
+transform: translateX(105px) rotateY(21deg) translateX(104px);
+opacity: 0.5;
+
+}
+.extrasmall-fc  .flashcard-content.bespoke-after-2 {
+	-webkit-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-moz-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-ms-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-o-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	transform: translateX(145px) rotateY(34deg) translateX(271px);
+	opacity: 0;
+}
+/********************************************* Small Transitions ***********************************************/
+
+.small-fc  .flashcard-content.bespoke-before {
+-webkit-transform:translateX(-277px) rotateY(-61deg) translateX(-450px);
+-moz-transform: translateX(-277px) rotateY(-61deg) translateX(-450px);
+-ms-transform: translateX(-277px) rotateY(-61deg) translateX(-450px);
+-o-transform: translateX(-277px) rotateY(-61deg) translateX(-450px);
+transform: translateX(-277px) rotateY(-61deg) translateX(-450px);
+opacity: 0;
+}
+.small-fc  .flashcard-content.bespoke-before-1 {
+-webkit-transform: translateX(-114px) rotateY(-34deg) translateX(-138px);
+-moz-transform: translateX(-114px) rotateY(-34deg) translateX(-138px);
+-ms-transform: translateX(-114px) rotateY(-34deg) translateX(-138px);
+-o-transform: translateX(-114px) rotateY(-34deg) translateX(-138px);
+transform: translateX(-114px) rotateY(-34deg) translateX(-138px);
+/*width: 150px;
+*/opacity: 0.5;
+}
+.small-fc  .flashcard-content.bespoke-after {
+-webkit-transform: translateX(350px) rotateY(112deg) translateX(500px);
+-moz-transform: translateX(350px) rotateY(112deg) translateX(500px);
+-ms-transform: translateX(350px) rotateY(112deg) translateX(500px);
+-o-transform: translateX(350px) rotateY(112deg) translateX(500px);
+transform: translateX(350px) rotateY(112deg) translateX(500px);
+opacity: 0;
+}
+.small-fc  .flashcard-content.bespoke-after-1 {
+-webkit-transform: translateX(118px) rotateY(65deg) translateX(123px);
+-moz-transform: translateX(118px) rotateY(65deg) translateX(123px);
+-ms-transform: translateX(118px) rotateY(65deg) translateX(123px);
+-o-transform: translateX(118px) rotateY(65deg) translateX(123px);
+transform: translateX(118px) rotateY(65deg) translateX(123px);
+/*width: 116px;*/
+opacity: 0.5
+}
+
+
+/********************************************* Medium Transitions ***********************************************/
+.medium-fc  .flashcard-content.bespoke-before {
+	-webkit-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-moz-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-ms-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-o-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	opacity: 0;
+}
+.medium-fc  .flashcard-content.bespoke-before-2 {
+	-webkit-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-moz-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-ms-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	-o-transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	transform:translateX(-104px) rotateY(-15deg) translateX(-450px);
+	opacity: 0;
+}
+.medium-fc  .flashcard-content.bespoke-before-1 {
+	-webkit-transform:translateX(-155px) rotateY(-19deg) translateX(-182px);
+	-moz-transform: translateX(-155px) rotateY(-19deg) translateX(-182px);
+	-ms-transform: translateX(-155px) rotateY(-19deg) translateX(-182px);
+	-o-transform: translateX(-155px) rotateY(-19deg) translateX(-182px);
+	transform: translateX(-155px) rotateY(-19deg) translateX(-182px);
+	opacity: 0.5;
+}
+.medium-fc  .flashcard-content.bespoke-after {
+	-webkit-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-moz-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-ms-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	-o-transform: translateX(680px) rotateY(72deg) translateX(990px);
+	transform: translateX(680px) rotateY(72deg) translateX(990px);
+	opacity: 0;
+}
+.medium-fc  .flashcard-content.bespoke-after-1 {
+	-webkit-transform: translateX(165px) rotateY(36deg) translateX(167px);
+	-moz-transform: translateX(165px) rotateY(36deg) translateX(167px);
+	-ms-transform: translateX(165px) rotateY(36deg) translateX(167px);
+	-o-transform: translateX(165px) rotateY(36deg) translateX(167px);
+	transform: translateX(165px) rotateY(36deg) translateX(167px);
+	opacity: 0.5;
+}
+.medium-fc  .flashcard-content.bespoke-after-2 {
+	-webkit-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-moz-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-ms-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	-o-transform: translateX(145px) rotateY(34deg) translateX(271px);
+	transform: translateX(145px) rotateY(34deg) translateX(271px);
+	opacity: 0;
+}
+
+/************************************************ Large Transition ******************************************/
+.large-fc  .flashcard-content.bespoke-before {
+	-webkit-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-moz-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-ms-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	-o-transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	transform: translateX(-980px) rotateY(-72deg) translateX(-1290px);
+	opacity: 0;
+}
+.large-fc  .flashcard-content.bespoke-before-2 {
+	-webkit-transform: translateX(-492px) rotateY(-51deg) translateX(-450px);
+	-moz-transform: translateX(-492px) rotateY(-51deg) translateX(-450px);
+	-ms-transform: translateX(-492px) rotateY(-51deg) translateX(-450px);
+	-o-transform: translateX(-492px) rotateY(-51deg) translateX(-450px);
+	transform: translateX(-492px) rotateY(-51deg) translateX(-450px);
+	opacity: 0.3;
+}
+.large-fc  .flashcard-content.bespoke-before-1 {
+	-webkit-transform: translateX(-227px) rotateY(-22deg) translateX(-210px);
+	-moz-transform:  translateX(-227px) rotateY(-22deg) translateX(-210px);
+	-ms-transform:  translateX(-227px) rotateY(-22deg) translateX(-210px);
+	-o-transform:  translateX(-227px) rotateY(-22deg) translateX(-210px);
+	transform:  translateX(-227px) rotateY(-22deg) translateX(-210px);
+	opacity: 0.5;
+}
+.large-fc  .flashcard-content.bespoke-after {
+	-webkit-transform: translateX(547px) rotateY(102deg) translateX(1000px);
+	-moz-transform: translateX(547px) rotateY(102deg) translateX(1000px);
+	-ms-transform: translateX(547px) rotateY(102deg) translateX(1000px);
+	-o-transform: translateX(547px) rotateY(102deg) translateX(1000px);
+	transform: translateX(547px) rotateY(102deg) translateX(1000px);
+	opacity: 0;
+}
+.large-fc  .flashcard-content.bespoke-after-1 {
+	-webkit-transform: translateX(229px) rotateY(37deg) translateX(203px);
+	-moz-transform: translateX(229px) rotateY(37deg) translateX(203px);
+	-ms-transform: translateX(229px) rotateY(37deg) translateX(203px);
+	-o-transform: translateX(229px) rotateY(37deg) translateX(203px);
+	transform: translateX(229px) rotateY(37deg) translateX(203px);
+	opacity: 0.5;
+}
+.large-fc  .flashcard-content.bespoke-after-2 {
+	-webkit-transform: translateX(558px) rotateY(101deg) translateX(424px);
+	-moz-transform: translateX(558px) rotateY(101deg) translateX(424px);
+	-ms-transform: translateX(558px) rotateY(101deg) translateX(424px);
+	-o-transform: translateX(558px) rotateY(101deg) translateX(424px);
+	transform: translateX(558px) rotateY(101deg) translateX(424px);
+	opacity: 0.3;
+}
+/*.large-fc  .flashcard-content.bespoke-after-3 {
+	-webkit-transform: translateX(2230px) rotateY(-211deg) translateX(2283px);
+	-moz-transform: translateX(2230px) rotateY(-211deg) translateX(2283px);
+	-ms-transform: translateX(2230px) rotateY(-211deg) translateX(2283px);
+	-o-transform: translateX(2230px) rotateY(-211deg) translateX(2283px);
+	transform: translateX(2230px) rotateY(-211deg) translateX(2283px);
+	opacity: 0.3;
+}*/
+
+
+
+/********************** Change me *********************************/
+
+
+.templateName{
+	background-color: red ;
+	color:red;
+}
+.example-fc, .audio-with-title-fc , .image-with-title-fc{
+	display: block;
+}
+
+ .flashcard-back .topheader,.flashcard-front .topheader{
+text-align: center;
+margin-top: 40px;
+}
+
+.flashcard-content .imageexample{
+	float:left;
+}
+
+.flashcard-content .text2{
+	/*float:left;*/ /*Darine*/
+}
+
+.medium-fc  .bottomsection{
+	margin-top: 10px;
+}
+.medium-fc  .imageexample img{
+width: 56px;
+height: 44px;
+margin-left: 30px;
+margin-right: 16px;
+}
+
+.large-fc  .topheader{
+text-align: center;
+margin-top: 64px;
+font-size: 20px
+}
+.large-fc  .bottomsection{
+	margin-top: 45px;
+}
+.large-fc .imageexample img{
+width: 100px;
+height: 63px;
+margin-left: 41px;
+margin-right: 16px;
+}
+
+.large-fc .flashcard-back, .large-fc .flashcard-front {
+	font-size: 24px;
+	line-height: 2;
+}
+.large-fc .text2 {
+	font-size: initial;
+}
+.large-fc  .text2 {
+margin-top: 10px;
+}
+.e7-media-object-box{
+	margin: auto;
+	margin-top:15%;
+}
+.extrasmall-fc .e7-media-object-box{
+	width: 34%;
+	height:40%;
+}
+.small-fc .e7-media-object-box{
+	width: 34%;
+	height:40%;
+}
+.medium-fc .e7-media-object-box{
+	width: 34%;
+	height:40%;
+}
+.large-fc .e7-media-object-box {
+width: 40%;
+height: 40%;
+}
+.e7-image-container{
+width: 100%;
+text-align: center;
+}
+.e7-audio-clickable-div{
+	width: 100%;
+	height: 100%;
+}
+.e7-image-title , .e7-audio-title{
+	text-align: center;
+}

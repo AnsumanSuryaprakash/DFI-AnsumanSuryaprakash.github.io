@@ -1,0 +1,25 @@
+#page6 .imgDiv{
+	width:100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#page6 .imgObj1{
+	width:55%;
+} 
+#page6 table td{
+	border: 1px solid rgba(255,120,0,1);
+}
+#page6 table thead tr:first-child td{
+	background-color: rgba(255,120,0,1);
+	text-align: center;
+}
+#page6 .clickable:hover{
+	cursor:pointer;
+	background-color:rgba(255,120,0,1);
+}
+#page6 .clicked{
+	background-color:rgba(255,120,0,1);
+}
+#page6 .passage table{
+	height:181px;
+}

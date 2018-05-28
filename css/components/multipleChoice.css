@@ -1,0 +1,386 @@
+.multipleChoicelist-numeric{
+	list-style-type: decimal;
+}
+.multipleChoicelist-alpha-lower{
+	list-style-type: lower-alpha;
+}
+.multipleChoicelist-alpha-upper{
+	list-style-type: upper-alpha;
+}
+.multipleChoicelist-roman-upper{
+	list-style-type: upper-roman;
+}
+.multipleChoicelist-roman-lower{
+	list-style-type: lower-roman;
+}
+.multipleChoicelist-square{
+	list-style-type: square;
+}
+.multipleChoicelist-circle{
+	list-style-type: circle;
+}
+.multipleChoicelist-disc{
+	list-style-type: disc;
+}
+.multipleChoicelist-nothing{
+	list-style-type: none;
+}
+.multipleChoicearabic-numeric{
+	list-style-type: arabic-indic;
+}
+.multipleChoicearabic-numeric li{
+	margin-right: 20px;
+}
+.multipleChoicearabic-alpha{
+	list-style-type: none;
+}
+.multipleChoicearabic-alpha li .multipleChoiceQuestion{
+	text-indent: -1em;
+}
+.multipleChoicearabic-alpha li:before{
+	content: attr(data-letter);
+	float: right;
+	text-indent: -3em;
+	width: 15px;
+	text-align: center;
+}
+.multipleChoiceMediaContainerHeader{
+	width: 100%;
+	text-align: center;
+	background-color: #E4EFEF;
+	position: absolute;
+	margin-right: -10px;
+	height: 25px;
+	font-size: 18px;
+}
+.multipleChoice_adec .multipleChoiceAnswer{
+	margin-bottom: 10px;
+}
+.multipleChoiceSelector.bannerFeedback .multipleChoiceMainContainer{
+	bottom: 115px;
+}
+.multipleChoiceSelector.noFeedback .multipleChoiceMainContainer{
+	bottom: 0px;
+}
+/* fady 29-10-2014 */
+.multipleChoice_adec .multipleChoiceAnswerLabel{
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	font-family: arial;
+	font-size: 22px;
+	color: #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+	text-align: center;
+	border: 3px solid #FFFFFF;
+}
+.multipleChoice_adec.multipleChoice_trueFalse .multipleChoiceAnswerLabel{
+	border: 3px solid #EF7D2D;
+}
+
+.multipleChoice_adec .multipleChoiceAnswerInput{
+	opacity: 0;
+	float: right;
+	height: 0px;
+}
+.multipleChoice_adec .multipleChoiceAnswerSelectLabel{
+	width: 25px;
+	height: 25px;
+	border: 3px solid #EF7D2D;
+	border-radius: 5px;
+	float: right;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -13px;
+	left: 0px;
+}
+.multipleChoice_adec.multipleChoiceSelector{
+	position: relative;
+	height: 100%;
+}
+
+/*fady 29-10-2014*/
+.multipleChoice_adec .multipleChoiceMainContainer {
+	width: 99%;
+	position: absolute;
+	top: 0px;
+	bottom: 80px;
+	padding: 0 10px 0 10px;
+	display: box;                   /* As specified */
+	display: -moz-box;              /* Mozilla */
+	display: -webkit-box;           /* WebKit */
+	box-align: center;              /* As specified */
+    -moz-box-align: center;         /* Mozilla */
+    -webkit-box-align: center;      /* WebKit */	
+    box-pack: center;               /* As specified */
+    -moz-box-pack: center;          /* Mozilla */
+    -webkit-box-pack: center;       /* WebKit */
+    display: -ms-flexbox;           /* IE */
+	-ms-flex-align: center;         /* IE */
+	-ms-flex-pack: center;          /* IE */
+	-ms-box-orient:horizontal;      /* IE */		
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*fady 29-10-2014*/
+.multipleChoice_adec .multipleChoiceMainContainer li{
+	text-align: center;
+}
+
+.multipleChoice_adec .multipleChoiceMainContainer li .answersContainer{
+	display: inline-block;
+}
+
+.multipleChoice_adec .multipleChoiceAnswer.selected .multipleChoiceAnswerSelectLabel{
+	background-color: #EF7D2D;
+	border: 3px solid white;
+	box-shadow: 0px 0px 0px 3px #EF7D2D;
+	width: 19px;
+	height: 19px;
+	border-radius: 2px;
+	margin-top: -10px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+/*fady 29-10-2014*/
+.multipleChoice_adec .multipleChoice_radio .multipleChoiceAnswer.selected .multipleChoiceAnswerLabel,
+.multipleChoice_adec .multipleChoice_checkBox .multipleChoiceAnswer.selected .multipleChoiceAnswerLabel{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/*fady 29-10-2014*/
+.multipleChoice_adec.multipleChoice_trueFalse .multipleChoiceAnswer.selected .multipleChoiceAnswerLabel{
+	background-color: #EF7D2D;
+	color: #FFFFFF;
+}
+
+.multipleChoice_adec.multipleChoice_trueFalse .multipleChoiceAnswer.multipleChoiceCorrect .multipleChoiceAnswerLabel{
+	background-color: #00B700;
+	border: 3px solid #00B700;
+	color: #FFFFFF;
+}
+
+.multipleChoice_adec.multipleChoice_radio .multipleChoiceAnswer.multipleChoiceCorrect .multipleChoiceAnswerLabel,
+.multipleChoice_adec.multipleChoice_checkBox .multipleChoiceAnswer.multipleChoiceCorrect .multipleChoiceAnswerLabel{
+	background-color: #FFFFFF !important;	
+	color: #00B700 !important;
+}
+
+.multipleChoice_adec.multipleChoice_radio .multipleChoiceAnswer.multipleChoiceIncorrect .multipleChoiceAnswerLabel,
+.multipleChoice_adec.multipleChoice_checkBox .multipleChoiceAnswer.multipleChoiceIncorrect .multipleChoiceAnswerLabel{
+	background-color: #FFFFFF !important;	
+	color: #D10000 !important;
+}
+
+/*fady*/
+.multipleChoice_adec .multipleChoiceAnswer.multipleChoiceCorrect .multipleChoiceAnswerSelectLabel{
+	box-shadow: 0px 0px 0px 3px #00B700;
+	background-color: #00B700;
+	border: 3px solid white;
+}
+
+.multipleChoice_adec label.disabled{
+	cursor: auto;
+}
+
+/*fady 29-10-2014*/
+.multipleChoice_adec.multipleChoice_trueFalse .multipleChoiceAnswer.multipleChoiceIncorrect .multipleChoiceAnswerLabel{
+	background-color: #D10000;
+	border: 3px solid #D10000;
+	color: #FFFFFF;
+}
+
+/*fady*/
+.multipleChoice_adec .multipleChoiceAnswer.multipleChoiceIncorrect .multipleChoiceAnswerSelectLabel{
+	box-shadow: 0px 0px 0px 3px #D10000;
+	background-color: #D10000;
+	border: 3px solid white;
+}
+/*fady 29-10-2014*/
+.multipleChoice_adec .multipleChoiceQuestionSet.trueFalse .answersContainer{
+	width: 100%;
+	height: 30px;
+	display: box;                   /* As specified */
+	display: -moz-box;              /* Mozilla */
+	display: -webkit-box;           /* WebKit */
+	box-align: center;              /* As specified */
+    -moz-box-align: center;         /* Mozilla */
+    -webkit-box-align: center;      /* WebKit */	
+    box-pack: center;               /* As specified */
+    -moz-box-pack: center;          /* Mozilla */
+    -webkit-box-pack: center;       /* WebKit */
+    display: -ms-flexbox;           /* IE */
+	-ms-flex-align: center;         /* IE */
+	-ms-flex-pack: center;          /* IE */
+	-ms-box-orient:horizontal;      /* IE */		
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*fady 29-10-2014*/
+.multipleChoice_adec .multipleChoiceQuestionSet.trueFalse .multipleChoiceAnswerLabel{
+	border-radius: 10px;
+	display: block;
+	font-family: 'simplified arabic';
+	font-size: 21px;
+	line-height: 23px;
+	min-width: 135px;
+	/*padding-bottom: 10px;*/
+}
+.multipleChoice_adec.multipleChoice_trueFalse .multipleChoiceMainContainer{
+	width: 99%;
+}
+.multipleChoice_adec .multipleChoiceQuestionSet.trueFalse .trueFalseNumbers .multipleChoiceAnswerLabel{
+	font-family: 'simplified arabic';
+	font-size: 125px;
+	border-radius: 0;
+	height: 215px;
+	width: 160px;
+}
+.multipleChoice_adec .multipleChoiceQuestionSet.trueFalse .answersContainer.trueFalseNumbers{
+	display: flex;
+	flex-wrap: initial;
+	justify-content: center;
+	flex-wrap: wrap;
+	-webkit-box-flex: 1;
+}
+.multipleChoiceQuestionSet.trueFalse{
+	margin-top: 15px;
+}
+/*fady 29-10-2014*/
+.multipleChoiceAnswer_trueFalse:nth-child(1){
+	margin-left: 0px;
+}
+.multipleChoiceAnswer_trueFalse{
+	margin-bottom: 0px;
+	/*float: right;*/
+	height: 100%;
+	margin-left: 30px;
+}
+.multipleChoiceAnswer.disabled{
+	pointer-events: none;
+}
+.multipleChoiceSelector.multipleChoice_adec.multipleChoice_trueFalse.numericTrueFalse .answersContainer{
+	width: 815px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	margin-top: 20px;
+}
+.multipleChoiceSelector.multipleChoice_adec.multipleChoice_trueFalse.numericTrueFalse .multipleChoiceAnswer{
+	width: 160px;
+	margin-right: 0px;
+}
+.multipleChoiceSelector.multipleChoice_adec.multipleChoice_trueFalse.numericTrueFalse .multipleChoiceAnswerLabel{
+	font-size: 135px;
+	line-height: 178px;
+	border-radius: 0px;
+}
+.multipleChoice_radio .multipleChoiceAnswerLabel, .multipleChoice_checkBox .multipleChoiceAnswerLabel{
+	text-align: right;
+	min-height: 35px;
+	display: table;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 18px;
+	padding-right: 10px;
+	padding-left: 30px; 
+	margin-right: 30px;
+}
+.multipleChoice_radio .multipleChoiceAnswer, .multipleChoice_checkBox .multipleChoiceAnswer{
+	margin-bottom: 0px;
+	position: relative;
+}
+.multipleChoice_radio input, .multipleChoice_checkBox input{
+	width: 0px;
+	display: none;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer{
+	float: right;
+	margin-right: 25px;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswerLabel{
+	background-color: white;
+	border: 3px solid rgb(228,239,239);
+	/*padding-left: 10px;*/
+	display: block;
+	/*min-width: 205px;*/
+	text-align: center;
+	position: relative;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: flex;
+	border-radius: 5px;
+	padding: 2px;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswerSelectLabel{
+	left: 50%;
+	position: relative;
+	margin-left: -12.5px;
+	float: left;
+	margin-top: 20px;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.selected .multipleChoiceAnswerLabel{
+	background-color: white;
+	border-color: #EF7D2D;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.incorrectAnswer .multipleChoiceAnswerLabel{
+	border-color: red;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.correctAnswer .multipleChoiceAnswerLabel{
+	border-color: #0c0;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.selected .multipleChoiceAnswerSelectLabel{
+	margin-right: 0px;
+	margin-left: -9.5px;
+	margin-top: 23px;
+}
+.multipleChoiceMediaContainerImage{
+	/*margin-top: 10px;*/
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.selected .multipleChoiceAnswerLabel .multipleChoiceMediaContainerHeader{
+	background-color: #1B948C;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.incorrectAnswer .multipleChoiceAnswerLabel  .multipleChoiceMediaContainerHeader{
+	background-color: red;
+	color: white;
+}
+.multipleChoiceSelector.withMedia .multipleChoiceAnswer.correctAnswer .multipleChoiceAnswerLabel  .multipleChoiceMediaContainerHeader{
+	background-color: #0c0;
+	color: white;
+}
+.multipleChoiceQuestionSet.radio .multipleChoiceQuestion{
+	font-family: arial;
+	font-size: 22px;
+	/*margin-bottom: 20px;*/
+}
+
+/*fady 29-10-2014*/
+.multipleChoiceQuestionSet.trueFalse .multipleChoiceQuestion{
+	font-family: arial;
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.multipleChoiceQuestionSet.checkBox .multipleChoiceQuestion{
+	font-family: arial;
+	font-size: 22px;
+	margin-bottom: 20px;
+	text-align: center;
+}

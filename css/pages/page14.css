@@ -1,0 +1,23 @@
+#page14 .fullSection{
+	overflow-y:scroll;
+	position: relative;
+}
+#page14 .imgClass{
+	width:35%;
+}
+#page14 .imgDiv{
+	width:100%;
+	text-align: center;
+}
+#page14 .passage{
+	margin: 0px;
+	width: auto;
+	height: 102%;
+}
+#page14 .passage .passageContainer{
+	width: 100%;
+	box-shadow: none;
+}
+#page14 textarea{
+	font-size: 18px !important;
+}

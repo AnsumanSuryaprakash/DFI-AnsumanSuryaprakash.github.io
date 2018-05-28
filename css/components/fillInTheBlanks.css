@@ -1,0 +1,324 @@
+.fillInTheBlanksComponent{
+	position: relative;
+	font-family: arial;
+	height: 100%;
+	font-size: 18px;
+}
+.fillInTheBlanksComponent:not(.withWordPool) .fillInTheBlanksList{
+	
+}
+ol.fillInTheBlanksList{
+	list-style-type: none;
+}
+ol.fillInTheBlanksList .fillInTheBlanksFirstSpan:before{
+	font-weight: bold;
+	float: left;
+	text-indent: -20px;
+}
+.fillInTheBlankslist-numeric{
+	counter-reset: list-numericCounter;
+}
+.fillInTheBlankslist-numeric .fillInTheBlanksFirstSpan:before{
+	content: counter(list-numericCounter, decimal) ".";
+	counter-increment: list-numericCounter;
+}
+.fillInTheBlankslist-alpha-lower{
+	counter-reset: alpha-lowerCounter;
+}
+.fillInTheBlankslist-alpha-lower .fillInTheBlanksFirstSpan:before{
+	content: counter(list-alpha-lowerCounter, lower-alpha) ".";
+	counter-increment: list-alpha-lowerCounter;
+}
+.fillInTheBlankslist-alpha-upper{
+	counter-reset: list-alpha-upperCounter;
+}
+.fillInTheBlankslist-alpha-upper .fillInTheBlanksFirstSpan:before{
+	content: counter(list-alpha-upperCounter, upper-alpha) ".";
+	counter-increment: list-alpha-upperCounter;
+}
+.fillInTheBlankslist-roman-upper{
+	counter-reset: list-roman-upperCounter;
+}
+.fillInTheBlankslist-roman-upper .fillInTheBlanksFirstSpan:before{
+	content: counter(list-roman-upperCounter, upper-roman) ".";
+	counter-increment: list-roman-upperCounter;
+}
+.fillInTheBlankslist-roman-lower{
+	counter-reset: list-roman-lowerCounter;
+}
+.fillInTheBlankslist-roman-lower .fillInTheBlanksFirstSpan:before{
+	content: counter(list-roman-lowerCounter, lower-roman) ".";
+	counter-increment: list-roman-lowerCounter;
+}
+.fillInTheBlankslist-square{
+	list-style-type: square;
+}
+.fillInTheBlankslist-circle{
+	list-style-type: circle;
+}
+.fillInTheBlankslist-disc{
+	list-style-type: disc;
+}
+.fillInTheBlankslist-nothing{
+	list-style-type: none;
+}
+.fillInTheBlanksarabic-numeric{
+	list-style-type: arabic-indic;
+}
+.fillInTheBlanksarabic-alpha{
+	list-style-type: none;
+}
+.fillInTheBlanksarabic-alpha li .fillInTheBlanksQuestion{
+	text-indent: -1em;
+}
+ol.fillInTheBlanksarabic-alpha .fillInTheBlanksFirstSpan:before{
+	content: attr(data-letter);
+	float: right;
+	width: 15px;
+	text-align: center;
+}
+.fillInTheBlanksSimpleTextarea{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #2BB2A9;
+	resize: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+.fillInTheBlanksSimple{
+	height: 100%;
+	/*padding-top: 1%;*/
+}
+.fillInTheBlanksTextArea{
+	width: 100%;
+	border: 1px solid #b0b0b0;
+	resize: none;
+	margin-top: 20px;
+}
+.fillInTheBlanksQuestion{
+	padding-bottom: 10px;
+	font-family: 'arial';
+	font-size: 18px;
+	/*width: 100%;*/
+}
+.fillInTheBlanksimageVertical .fillInTheBlanksQuestion{
+	padding: 5px 5px;
+	/*border: 4px solid #FFFFFF;*/
+	/*box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.3);*/
+	margin-left: 20px;
+	margin-right: 15px;
+	/*border-radius: 5px;*/
+	display: inline-table;
+	font-family: arial;
+	font-size: 18px;
+	width: auto;
+}
+.fillInTheBlanksSentence .fillInTheBlanksList{
+	flex-direction: column;
+	align-items: center;
+}
+.rlaCompContainer .fillInTheBlanksQuestion, .fillInTheBlanksQuestion.withQuestionBorder{
+	border: 4px solid #FFFFFF;
+	box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	padding-bottom: 0;
+}
+.rlaCompContainer .fillInTheBlanksimageVertical .fillInTheBlanksQuestion, .fillInTheBlanksimageVertical .fillInTheBlanksQuestion.withQuestionBorder{
+	padding-bottom: 5px;
+}
+.fillInTheBlanksList:not(.fillInTheBlankslist-nothing) .fillInTheBlanksQuestion{
+	padding-right: 20px;
+}
+.fillInTheBlanksList{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.fillInTheBlanksSentenceInput li, .fillInTheBlanksSentenceInput .fillInTheBlanksFirstSpan:before{
+	line-height: 35px;
+}
+.fillInTheBlanksSentenceInput input{
+	height: 30px;
+}
+.fillInTheBlanksFreeMode{
+	/*display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+*/}
+.fillInTheBlanksFreeMode .fillInTheBlanksMainContainer{
+	position: relative;
+}
+.fillInTheBlanksFreeMode .fillInTheBlanksFreeModeInput{
+	position: absolute;
+}
+.fillInTheBlanksTable{
+	width: 100%;
+	table-layout: fixed;
+}
+.fillInTheBlanksHeaderItem {
+	background-color: #F3E7F1;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: arial;
+	font-weight: bold;
+}
+.fillInTheBlanksTableCell{
+	padding: 7px;
+	vertical-align: middle;
+	text-align: center;
+}
+.fillInTheBlanksTableCell textarea{
+	margin-top: 0;
+}
+.fillInTheBlanksMainTableContainer{
+	/*height: 80%;*/
+}
+.fillInTheBlanksMainTableContainer tr td {
+	border: 2px solid #960F6E;
+}
+.fillInTheBlanksimageVertical .fillInTheBlanksMediaContainer{
+	/*height: 80%;*/
+	/*display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;*/
+	/*position: absolute;*/
+	/*top: 0;
+	bottom: 60px;
+	width: 100%;
+	padding: 0px 10px;*/
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.fillInTheBlanksimageVertical .fillInTheBlanksInputText{
+	/*margin-top: 20px;*/
+}
+.fillInTheBlanksimageVertical .fillInTheBlanksMediaQuestion{
+	/*text-align: center;
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	flex-grow: 1;
+	align-self: center;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.fillInTheBlanksimageVertical .fillInTheBlanksMediaQuestion img{
+	max-height: 100%;
+	max-width: 100%;
+	padding: 0px 10px;
+	padding-bottom: 15px;
+}
+.fillInTheBlanksImageMode:not(.fillInTheBlanksComponentInstruction){
+	padding-top: 10px;
+}
+.fillInTheBlanksimageHorizontal .fillInTheBlanksImage{
+	vertical-align: middle;
+}
+.fillInTheBlanksimageHorizontal .fillInTheBlanksMediaQuestion{
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+/*fady 30-10-2014*/
+.fillInTheBlanksWordPool{
+	width: 100%;
+	display: box;                   
+	display: -moz-box;              
+	display: -webkit-box;           
+	display: -ms-flexbox;  
+	box-align: center;              
+    -moz-box-align: center;         
+    -webkit-box-align: center;  
+    -ms-flex-align: center;
+     box-pack: center;              
+    -moz-box-pack: center;          
+    -webkit-box-pack: center;       
+	-ms-flex-pack: center;        
+	/*padding-bottom: 10px;*/
+	/*padding-top: 10px;*/
+	min-height: 40px;
+}
+/*fady 30-10-2014*/
+.fillInTheBlanksWordPoolItem{
+	margin-left: 15px;
+	text-align: center;
+	color: #960E6D;
+	background-color: #F3E7F1;
+	border-radius: 5px;
+	padding-left: 6px;
+	min-width: 125px;
+	padding-right: 6px;
+	height: 30px;
+	line-height: 30px !important;
+	font-size: 22px;
+	font-family: arial;
+}
+.fillInTheBlanksCorrectAnswer{
+	color: #00B700;
+}
+.fillInTheBlanksIncorrectAnswer{
+	color: #D10000;
+}
+.fillInTheBlanksComponent input[disabled], .fillInTheBlanksComponent textarea[disabled]{
+	background-color: rgb(240, 240, 240);	
+}
+.fillInTheBlanksComponent input, .fillInTheBlanksComponent textarea{
+	font-size: 18px;
+	padding: 0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 2px #C4C4C4 inset;
+	border: 0px;
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+}
+.fillInTheBlanksComponent input{
+	text-align: center;
+}
+.fillInTheBlanksComponent .fillInTheBlanksTableCell input, .fillInTheBlanksComponent .fillInTheBlanksTableCell textarea{
+	height: 100%;
+	width: 100%;
+	min-height: 30px;
+	box-shadow: none;
+}
+.fillInTheBlanksQuestionsWrapper{
+	display: box;                   /* As specified */
+	display: -moz-box;              /* Mozilla */
+	display: -webkit-box;           /* WebKit */
+	box-align: center;              /* As specified */
+	-moz-box-align: center;         /* Mozilla */
+	-webkit-box-align: center;      /* WebKit */	
+	box-pack: center;               /* As specified */
+	-moz-box-pack: center;          /* Mozilla */
+	-webkit-box-pack: center;       /* WebKit */
+	display: -ms-flexbox;           /* IE */
+	-ms-flex-align: center;         /* IE */
+	-ms-flex-pack: center;          /* IE */
+	-ms-box-orient:horizontal;      /* IE */		
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 80px;
+	top: 0;
+	width: 100%;
+	padding: 10px 15px 0 10px;
+}
+.fillInTheBlanksComponent.bannerFeedback .fillInTheBlanksQuestionsWrapper{
+	bottom: 115px;
+}
+.fillInTheBlanksComponent.noFeedback .fillInTheBlanksQuestionsWrapper{
+	bottom: 0;
+}

@@ -1,0 +1,1084 @@
+{
+    "questions": [
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a place where you can stay?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accommodation",
+                        "accommodated",
+                        "accommodating",
+                        "accommodated"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which word means of a very high class and standard?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accurate",
+                        "classic",
+                        "enormous",
+                        "stable"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>He was nervous climbing up the tower because the steps were not very _____. </i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "stable",
+                        "phase",
+                        "minor",
+                        "enormous"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>The team _____ a new engine which the engineers then built.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "designed",
+                        "debated",
+                        "demeaned",
+                        "delayed"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a timetable of events?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "section",
+                        "schedule",
+                        "style",
+                        "steadfast"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is a synonym for \"work\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "benefit",
+                        "goal",
+                        "labor",
+                        "construct"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call something that has been restored?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "restoring",
+                        "restorer",
+                        "restoration",
+                        "rested"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 20,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call something that has been constructed?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "constructing",
+                        "constructor",
+                        "construction",
+                        "constructible"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What does the word \"strenuous\" mean?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "strained",
+                        "strong",
+                        "difficult",
+                        "stressful"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which word means \"to put an emphasis on something\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "emphatic",
+                        "emphasized",
+                        "emphasize",
+                        "emphasizing"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>They observed the different _____ of the moon as the month progressed.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "alternatives",
+                        "benefits",
+                        "foundations",
+                        "phases"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>My _____ is to become a doctor by the time I am 25.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "alternative",
+                        "emphasis",
+                        "goal",
+                        "schedule"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is a synonym for \"withstand\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "sit down",
+                        "give in",
+                        "resist",
+                        "collapse"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"benefit\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "advantage",
+                        "weakness",
+                        "strength",
+                        "magnificent"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a person who has vision?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "visioning",
+                        "visionary",
+                        "visions",
+                        "visible"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 40,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What is the noun form of accurate?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accuracy",
+                        "accurance",
+                        "curator",
+                        "accumulate"
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a piece of paper that identifies you?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "identity",
+                        "identification",
+                        "identified",
+                        "identical"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Definitions",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "The word \"stable\" means \"steady\". Can you think of another meaning for this word?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "a home",
+                        "a farmyard ",
+                        "a building for horses",
+                        "a racetrack"
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>Because of the fire alarm, the teachers had to  _____ the conference.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "access",
+                        "adjust ",
+                        "restore",
+                        "suspend"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Context",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "<i>The President’s plans for a new society showed great _____ for the future.</i>Which of these words completes the sentence?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "accommodation",
+                        "alternative ",
+                        "emphasis",
+                        "vision"
+                    ],
+                    "correctAnswers": [
+                        4
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"construct\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "structure",
+                        "demolish ",
+                        "agree",
+                        "deviate"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Synonyms and Antonyms",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "Which of the following is an antonym for \"decline\"?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "decease",
+                        "increase",
+                        "transport",
+                        "decrease"
+                    ],
+                    "correctAnswers": [
+                        2
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "What do you call a person who is in style?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "styled",
+                        "stylist",
+                        "stylish",
+                        "styling "
+                    ],
+                    "correctAnswers": [
+                        3
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        },
+        {
+            "questionType": "multipleChoice",
+            "questionPoints": 60,
+            "questionCategory": "Lucky Draw",
+            "multipleChoiceType": "radio",
+            "componentData": [
+                {
+                    "question": "By what other word is the \"surface\" of land known?",
+                    "type": "text",
+                    "possibleAnswers": [
+                        "area",
+                        "foundation",
+                        "length",
+                        "volume "
+                    ],
+                    "correctAnswers": [
+                        1
+                    ]
+                }
+            ],
+            "direction": "LTR",
+            "listStyle": "list-nothing",
+            "gridLayout": false,
+            "template": "adec",
+            "feedback": {
+                "feedbackType": "nothing",
+                "revealAnswers": false,
+                "buttons": [
+                    {
+                        "button": "check",
+                        "text": "Submit Answer"
+                    }
+                ],
+                "numberOfAttempts": 1,
+                "feedbackMessages": {
+                    "correctMessage": "Yes, that’s it!",
+                    "incorrectMessage": "No. I’m actually at (B, 5)!",
+                    "attemptsMessages": "No, that’s not it. Can you check again?"
+                }
+            },
+            "fullscreen": false,
+            "componentPageName": "page3",
+            "mainQuestion":"",
+            "mainQuestionAudio": "sounds/page2/instruction.mp3"
+        }
+    ]
+}
